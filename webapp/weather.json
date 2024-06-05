@@ -63,6 +63,22 @@
       "December": {"high": 76, "low": 66}
     }
   },
+  "Mexico": {
+    "Mexico City": {
+      "January": {"high": 70, "low": 44},
+      "February": {"high": 72, "low": 45},
+      "March": {"high": 75, "low": 47},
+      "April": {"high": 77, "low": 49},
+      "May": {"high": 77, "low": 51},
+      "June": {"high": 75, "low": 52},
+      "July": {"high": 74, "low": 52},
+      "August": {"high": 74, "low": 52},
+      "September": {"high": 74, "low": 51},
+      "October": {"high": 73, "low": 49},
+      "November": {"high": 72, "low": 47},
+      "December": {"high": 70, "low": 45}
+    }
+  },
   "Portugal": {
     "Lisbon": {
       "January": {"high": 57, "low": 46},
