@@ -12,7 +12,6 @@ historical_data = join(current_dir, "weather.json")
 app = FastAPI()
 app.mount("/.well-known", StaticFiles(directory=wellknown_path), name="static")
 
-
 # load historical json data and serialize it:
 with open(historical_data, "r") as f:
     data = json.load(f)
