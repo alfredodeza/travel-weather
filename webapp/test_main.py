@@ -12,4 +12,6 @@ def test_root():
 def test_countries():
     response = client.get("/countries")
     assert response.status_code == 200
-    assert sorted(response.json()) == ["England", "France", "Germany", "Italy", "Peru", "Portugal", "Spain"]
+    assert sorted(response.json()) == [
+        "England", "France", "Germany", "Italy", "Peru", "Portugal", "Spain"
+    ]
