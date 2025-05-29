@@ -7,7 +7,7 @@ HOST := 0.0.0.0
 
 # Define targets
 run:
-	/home/vscode/venv/bin/uvicorn --host $(HOST) $(APP_MODULE) --reload
+	venv/bin/uvicorn --host $(HOST) $(APP_MODULE) --reload
 
 help:
 	@echo "Usage: make [target]"
