@@ -1,6 +1,6 @@
 # A Travel Weather API
 
-A Python weather API.
+A Python weather API. WIth tests and automation for MiBanco!
 
 ## Trademarks
 
